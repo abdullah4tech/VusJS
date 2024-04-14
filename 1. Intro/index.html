@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- VueJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js" defer></script>
+
+    <!-- VueJS Application -->
+    <script src="app.js" defer></script>
+
+    <!-- Stylesheet for my webpage -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Vue App</title>
+  </head>
+  <body>
+    <div id="app">
+      <img :class="gender" :src="picture" />
+      <h1 class="name">{{ firstname }} {{ lastname }}</h1>
+      <h3 class="email">Email: <a :href="'mailto:'+email">{{ email }}</a></h3>
+      <button @click="getUser()" :class="gender">Get Random User</button>
+    </div>
+  </body>
+</html>

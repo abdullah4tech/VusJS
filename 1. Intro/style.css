@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    margin-left: 300px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 20em;
+    border-radius: 500px;
+    border: 20px groove;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #03399d;
+    transition: 0.3s ease-in-out;
+}
+
+button{
+    height: 3.5em;
+    width: 12em;
+    margin-left: 70px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.male{
+    background-color: #3ba13f;
+    border-color: #4CAF50
+}
+
+.female{
+    background-color: #e85cde;
+    border-color: #e78ce1;
+}
+
+.male:hover{
+    background-color: #5fad63; /* Darker green */
+}
+
+.male:active{
+    background-color: #297b2d;
+}
+
+.female:hover{
+    background-color: #de8cd9; /* Darker green */
+}
+
+.female:active{
+    background-color: #a95ba3;
+}
+
